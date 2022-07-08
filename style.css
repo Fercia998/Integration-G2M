@@ -19,8 +19,13 @@ body{
     
    
     
-}
 
+}
+.rectangle{
+    position: absolute;
+    right: 75vw;
+    margin-top: 5vw;
+}
 
 .am{
     display: flex;
@@ -175,6 +180,14 @@ p{
     
    
 }
+.osf{
+    margin-top: 1vw;
+}
+.osf2{
+    height: 30px;
+    width: 200px;
+}
+.
 .contactbox{
     height: fit-content;
     display: flex;
@@ -182,6 +195,14 @@ p{
     position: absolute;
     bottom:-2%;
 
+}
+.osf3{
+    height: 30px;
+    width: 80px;
+
+}
+.medium{
+    margin-left: 2vw;
 }
 .contact{
     width: 12vw;
@@ -276,6 +297,10 @@ p{
 
     
 }
+.textstrategie1{
+    width: 47vw;
+    margin-top: 5vw;
+}
 .group15{
     width: 50vw;
     background-color: #f78a22;
@@ -291,6 +316,7 @@ p{
     margin-top:0.5rem;
     
 }
+
 .service{
     width: 100%;
     padding-top: 15%;
@@ -385,6 +411,12 @@ p{
     justify-content: center;
     
 }
+.babe{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10vw;
+
+}
 h2{
     font-size: 2vw;
    
@@ -434,6 +466,19 @@ h2{
     align-items: center;
     justify-content: center;
 
+}
+.mysection{
+   
+    height: 40vh;
+    background-color:#ECEDF3;
+    display: flex;
+    margin-top: 10vw;
+    border-radius: 15px;
+    flex-direction: column;
+}
+.jm{
+    display: flex;
+    margin-left: 22px;
 }
 .smallcircle1{
     width: 60px;
@@ -518,16 +563,23 @@ footer{
 }
 .caroussel{
     height: fit-content;
-    width: 100%;
+    width: 900px;
     position: absolute;
     top:-30vw;
+    left: 5vw;
 }
+
 .carousel-items {
     display: flex;
     overflow-x: auto;
     padding: 1rem 0;
 
 }
+.hey{
+    height: 400px;
+    width: 400px;
+}
+
 .carousel-item {
     margin-left: 1rem;
 }
@@ -597,21 +649,100 @@ footer{
     height: 400px;
     background-color: #3e4169;
 }
+.coeur{
+    position: absolute;
+    display: flex;
+    top: 85vw;
+    left: 3vw;
+    justify-content: space-between;
+    
+    width: 86%;
+}
+.mama{
+    height: 221px;
+    width: 211px;
+
+}
+
 @media screen and (max-width: 720px) { 
     *{
     margin: 0;
     padding: 0;
 }
-.caroussel{
-    height: 50vw;
-    width: 100%;
-    position: absolute;
-    margin-top:60vw;
+.mama{
+    height: 100px;
+    width: 100px;
 
+}
+.jm{
+    display: flex;
+    margin-left: 10px;
+}
+
+.coeur{
+    position: absolute;
+    display: flex;
+    top: 250vw;
+    left: 3vw;
+    width: 80%;
+    height: 60vw;
+}
+.caroussel{
+    height: fit-content;
+    width: 200px;
+    position: absolute;
+    margin-top:143vw;
+    left: -5vw;
+    
+    
+
+}
+.babe{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-top: 10vw;
+    background-color: red;
+    align-items: center;
+    width: 100%;
+}
+.taille{
+    height: 140px;
+    width: 140px;
+    background-color: blue;
+   
+   
+}
+.taille2{
+    height: 110pxpx;
+    width: 100px;
+}
+.mar{
+    position: absolute;
+    background-color: red;
+    
+    
+}
+.de{
+    margin-top: 20vw;
+}
+.done{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
+.osf4{
+    height: 30px;
+    width: 200px;
+}
+.lei{
+    height: 600px;
+    width: 600px;
+    
 }
 .carousel-items {
     display: flex;
-    overflow-x: auto;
+    overflow-x: scroll;
     padding: 1rem 0;
 
 }
@@ -621,6 +752,7 @@ footer{
 .hservice{
     height: fit-content;
     width: 100%;
+    margin-top: 10vw;
 }
 .rain{
     
@@ -635,6 +767,9 @@ footer{
 
 
 .hidden{
+    display: none;
+}
+.fercia{
     display: none;
 }
 .me{
@@ -752,6 +887,17 @@ nav{
     flex-direction: column-reverse;
    
 }
+.mysection{
+   
+    height: 30vh;
+    background-color:#ECEDF3;
+    display: flex;
+    margin-top: 10vw;
+    border-radius: 15px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
 .right{
     height: 40vw;
     width: 90vw;
@@ -789,7 +935,7 @@ nav{
     font-size: 3.5vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: absolute;
-    top: 65vw;
+    top: 30vw;
     width: 40vw;
 
 
@@ -970,13 +1116,17 @@ p{
 }
 .title3{
     font-size: 6vw;
-    margin-top: 70vw;
+    margin-top: 42vw;
     position: absolute;
 }
 .gabin{
     font-size: 6vw;
     margin-top: -1vw;
    
+}
+.erouane{
+    height: fit-content;
+    width: 150px;
 }
 
 .service{
@@ -1246,14 +1396,22 @@ footer{
 }
 .greyrectangle{
     width: 100%;
-    height: 250vw;
-    background-color: #223394;
+    height: 320vw;
+    background-color: rgb(236, 237, 243);
     border-radius: 50px;
     margin-top: 0;
     position: relative;
     margin-left: 0px;
 
 
+}
+.rectangle{
+    position: absolute;
+    right: 50vw;
+    margin-top: 10vw;
+}
+.nina{
+    width: 200px;
 }
 .grey-bg-image{
     width: 50vw;
