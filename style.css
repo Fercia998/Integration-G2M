@@ -1408,7 +1408,7 @@ h2{
 }
 .smallcircle5{
     height: 50px;
-    width: 40px;
+    width: 30px;
     border-radius: 50%;
     border: rgb(76, 79, 223) 3px solid;
     display: flex;
@@ -1418,7 +1418,7 @@ h2{
 }
 .smallcircle4{
     height: 50px;
-    width: 40px;
+    width: 30px;
     border-radius: 50%;
     border: rgb(248, 207, 118) 3px solid;
     display: flex;
@@ -1427,7 +1427,7 @@ h2{
 
 }
 .smallcircle3{
-    width: 40px;
+    width: 30px;
     height: 50px;
     border-radius: 50%;
     border: rgb(247, 92, 213) 3px solid;
@@ -1440,7 +1440,7 @@ h2{
   width:20px ; 
 }
 .smallcircle{
-    width: 40px;
+    width: 30px;
     height: 50px;
     border-radius: 50%;
     border: rgb(138, 153, 235) 3px solid;
@@ -1450,7 +1450,7 @@ h2{
 
 }
 .smallcircle1{
-    width: 40px;
+    width: 30px;
     height: 50px;
     border-radius: 50%;
     border: rgb(76, 79, 223) 3px solid;
@@ -1460,7 +1460,7 @@ h2{
 
 }
 .smallcircle2{
-    width: 40px;
+    width: 30px;
     height: 50px;
     border-radius: 50%;
     border: rgb(248, 207, 118) 3px solid;
