@@ -22,6 +22,56 @@ body{
     right: 75vw;
     margin-top: 5vw;
 }
+.ayou{
+    height: 400px;
+    width: 400px;
+}
+.images{
+    display: flex;
+    animation-duration: 20s;
+    animation-name: mesImages;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes mesImages{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-400px);
+    }
+    50%{
+        transform: translateX(-800px);
+    }
+    75%{
+        transform: translateX(-1200px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.gara{
+    width: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    top: 50vw;
+    position: absolute;
+    left: 10vw;
+}
+.garo{
+    width: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    top: 50vw;
+    position: absolute;
+    left: 50vw;
+}
+.self{
+    margin-left: 1vw;
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+}
 
 .am{
     display: flex;
@@ -183,7 +233,10 @@ p{
     height: 30px;
     width: 200px;
 }
-.
+.osf12{
+    height: 27px;
+    
+}
 .contactbox{
     height: fit-content;
     display: flex;
@@ -233,7 +286,7 @@ p{
     width: 20vw;
     position: absolute;
     right: 18%;
-    bottom: -1.8%;
+    top:100%;
     
 }
 .playtext{
@@ -472,10 +525,8 @@ h2{
     border-radius: 15px;
     flex-direction: column;
 }
-.jm{
-    display: flex;
-    margin-left: 22px;
-}
+
+
 .smallcircle1{
     width: 60px;
     height: 60px;
@@ -539,7 +590,12 @@ footer{
     position: relative;margin-top: 20%;
     
 }
-
+.mimi{
+    display: flex;
+    background-color: ;
+    width: 25vw;
+    justify-content: space-between;
+}
 
 .form{
     width: 100%;
@@ -562,7 +618,7 @@ footer{
 }
 .caroussel{
     height: fit-content;
-    width: 900px;
+    width: 400px;
     position: absolute;
     top:-30vw;
     left: 5vw;
@@ -570,7 +626,7 @@ footer{
 
 .carousel-items {
     display: flex;
-    overflow-x: auto;
+    overflow-x: scroll;
     padding: 1rem 0;
 
 }
@@ -673,36 +729,94 @@ footer{
     width: 100px;
 
 }
+.nours{
+    font-size: 10px;
+   
+}
 .jm{
     display: flex;
     margin-left: 10px;
 }
+.ayou{
+    height: 300px;
+    width: 300px;
+}
+.images{
+    display: flex;
+    animation-duration: 20s;
+    animation-name: mesImages;
+    animation-iteration-count: infinite;
+    
+}
+@keyframes mesImages{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-200px);
+    }
+    50%{
+        transform: translateX(-400px);
+    }
+    75%{
+        transform: translateX(-600px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.gara{
+    width: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    top: 160vw;
+    position: absolute;
+    left: 10vw;
+}
+.self{
+    margin-left: 1vw;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    height: 20vw;
+}
 
+.garo{
+    width: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    top: 50vw;
+    position: absolute;
+    left: 50vw;
+}
+
+.mimi{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    justify-content: space-between;
+    margin-top: 2vw;
+}
 .coeur{
     position: absolute;
     display: flex;
-    top: 250vw;
+    top: 240vw;
     left: 3vw;
     width: 80%;
-    height: 60vw;
+    height: 40vw;
+    flex-direction: column;
+    justify-content: space-between;
+    
 }
-.caroussel{
-    height: fit-content;
-    width: 200px;
-    position: absolute;
-    margin-top:143vw;
-    left: -5vw;
-    
-    
 
-}
 .babe{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     margin-top: 10vw;
-    align-items: center;
     width: 100%;
+    margin-left: 32px;
+
 }
 .taille{
     height: 140px;
@@ -733,9 +847,23 @@ footer{
     height: 30px;
     width: 200px;
 }
+
+.osf2{
+    height: 25px;
+    width: 150px;
+}
+
+.osf15{
+    height: 25px;
+    width: 150px;
+}
+.mer{
+    margin-top: 10px;
+}
 .lei{
     height: 600px;
     width: 600px;
+    
     
 }
 .carousel-items {
@@ -762,7 +890,9 @@ footer{
     height: 38vw;
     width: 35vw;
 }
-
+.man{
+    text-align: start;
+}
 
 .hidden{
     display: none;
@@ -887,16 +1017,15 @@ nav{
 }
 .mysection{
    
-    height: 20vh;
+    height: 25vh;
     background-color:#ECEDF3;
     display: flex;
     margin-top: 10vw;
     border-radius: 15px;
-    width: 100%;
     flex-direction: column;
-    align-items: center;
-    width: 80%;
-    margin-left:12.5px;
+    width: 50%;
+    margin-left: 24px;
+    
 }
 .lui{
     margin-top: 4px;
@@ -1017,7 +1146,7 @@ p{
     height:10vw;
     position: absolute;
     right: 18%;
-    bottom: -30.28vw;
+    top: 150%;
    
 }
 .playtext{
@@ -1077,6 +1206,9 @@ p{
 .textstrategie{
     width: 50vw;
     margin-top: 4vw;
+}
+.bb{
+    margin-top: -20vw;
 }
 
 .group15{
@@ -1425,7 +1557,7 @@ footer{
     border-radius: 18px;
     position: absolute;
     right: 6%;
-    top: 100vw;
+    top: 70vw;
 }
 .hoverrectangle{
 
