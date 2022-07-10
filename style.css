@@ -58,6 +58,13 @@ body{
     position: absolute;
     left: 10vw;
 }
+.gara2{
+    width: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: absolute;
+    left:-0.5vw;
+}
 .garo{
     width: 400px;
     overflow: hidden;
@@ -349,6 +356,7 @@ p{
 .textstrategie1{
     width: 47vw;
     margin-top: 5vw;
+    margin-left: 25vw;
 }
 .group15{
     width: 50vw;
@@ -774,6 +782,15 @@ footer{
     position: absolute;
     left: 10vw;
 }
+.gara2{
+    width: 140px;
+    overflow: hidden;
+    border-radius: 10px;
+    position: absolute;
+    left: 5vw;
+    margin-top: -80vw;
+}
+
 .self{
     margin-left: 1vw;
     width: 80vw;
@@ -813,9 +830,11 @@ footer{
 .babe{
     display: flex;
     justify-content: space-around;
-    flex-direction: column;
     margin-top: 10vw;
     margin-left: 32px;
+    height: 70vw;
+    flex-direction: column;
+   
 
 }
 .taille{
@@ -1210,6 +1229,13 @@ p{
     width: 50vw;
     margin-top: 4vw;
 }
+.textstrategie1{
+    width: 47vw;
+    margin-top: 10vw;
+    left: -20vw;
+    
+    position: absolute;
+}
 .bb{
     margin-top: -20vw;
 }
@@ -1548,7 +1574,7 @@ footer{
 .rectangle{
     position: absolute;
     right: 50vw;
-    margin-top: 10vw;
+    margin-top: -90vw;
     
 }
 .nina{
