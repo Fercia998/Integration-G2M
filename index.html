@@ -31,19 +31,17 @@
                 
             </select>
             <i class="fa-solid fa-language"></i>
-            <img class="me" src="menu (1).png" alt="">
-            <div class="container">
-                <button class="click">Click me</button>
-                <div class="list">
-                    <button class="linksa">Link1</button>
-                    <button class="linksa">Link2</button>
-                    <button class="linksa">Link3</button>
-                    <button class="linksa">Link4</button>
-                    <button class="linksa">Link5</button>
+            <div style=" height: 10px; width: 100px;" class="container bobo ">
+                <button style=" width:100px;" class="click"><img src="menu (1).png" alt=""></button>
+                <div style="width:100px" class="list">
+                    <button style=" width: 100px;" class="linksa">Link1</button>
+                    <button style=" width: 100px;" class="linksa">Link2</button>
+                    <button style=" width: 100px;"class="linksa">Link3</button>
+                    <button style=" width: 100px;" class="linksa">Link4</button>
+                    <button style=" width: 100px;" class="linksa">Link5</button>
 
 
                 </div>
-            </div>
     
     
         </nav>
@@ -61,7 +59,7 @@
                 <button class="contact">CONTACTEZ NOUS</button>
             </div>
             <div class="video">
-                <button class="play"><i style="font-size: 1.5vw" class="fa-solid fa-play"></i></button> <span class="playtext"><span class="hidden">Jouer la</span> video
+                <button class="play"><a href="https://youtu.be/roAy5TWUluY"><i  style="font-size: 1.5vw" class="fa-solid fa-play"></i></a></button> <span class="playtext"><span class="hidden">Jouer la</span> video
                     3:14</span>
             </div>
         </div>
@@ -303,18 +301,18 @@
                     <br>
                     <h1 class="title2">Consultation gratuite</h1>
                     <br>
-                    <p class="text2 don nini" style="color: rgb(0, 0, 0); font-size: large; ">lorem ipsum dolor sit amet consectetur adipiscing elit
+                    <p class="text2 don" style="color: rgb(0, 0, 0); font-size: large; ">lorem ipsum dolor sit amet consectetur adipiscing elit
                         
                         </p>
                     </div>
                     <div  class="fluide">
                         <div class="form-content " style="">
                             <span style="" class="hidden ">Nom</span>
-                            <input class="fluide1" type="name" placeholder="Votre nom" style="border:px">
+                            <input class="fluide1 jo" type="name" placeholder="Votre nom" style="border:px">
                         </div>
                         <div class="form-content">
                             <span class="hidden ">Prenom</span>
-                            <input class="fluide1 " type="name" placeholder="Votre prenom" >
+                            <input class="fluide1 jo " type="name" placeholder="Votre prenom" >
                         </div>
                     </div>
                     <div class="fluide">
@@ -322,11 +320,11 @@
     
                         <div style=";" class="form-content">
                             <span class="hidden ">Email</span>
-                            <input class="fluide1 mona" type="name" placeholder="Votre Email" >
+                            <input class="fluide1 mona jo" type="name" placeholder="Votre Email" >
                         </div>
                         <div class="form-content">
                             <span class="iii hidden ">Services</span>
-                            <select class="fluide1a mara" name="" id="" placeholder="Services"></select>
+                            <select class="fluide1a mara jo" name="" id="" placeholder="Services"></select>
                         </div>
                         
                     </div>
@@ -393,11 +391,11 @@
              
         </footer>
     <script>
-       let click =document.querySelector('click');
-       let list =document.querySelector('list');
-       click .addEventListener("click",)={
-        list .classList.toogle('newlist')
-    };
+       let click = document.querySelector('.click');
+       let list = document.querySelector('.list');
+       click.addEventListener("click", () =>{
+        list .classList.toggle('newlist');
+    });
       
     </script>
 </body>
