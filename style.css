@@ -621,6 +621,11 @@ p{
     transform: scale(1.1);
 
 }
+.linksa2:hover{
+    background-color: red;
+    transform: scale(1.1);
+
+}
   
 .babe{
     display: flex;
@@ -1094,6 +1099,7 @@ footer{
     font-size: 2vw;
    
 }
+
 .innerbox15{
     width: 35vw;
     margin-top: -50vw;
@@ -1165,15 +1171,21 @@ background-color: transparent;
     background-color: rgb(138, 153, 235);
 }
 .linksa:hover{
-    background: linear-gradient(225deg, blue 0%,#26caf8 50%, red 100%)
+    background: #26caf8 
     transform: scale(1.1);
 
 }
 .black{
-    background-color: black; top:  125vw; color: white; height: 30px; width: 120px; border-radius: 5px; border: none; position: absolute;
+    background-color: black; top:  140vw; color: white; height: 30px; width: 120px; border-radius: 5px; border: none; position: absolute;
 }
 .black:hover{
    background-color:  rgb(202, 36, 138);
+}
+
+
+.dark-mode {
+  background-color: black;
+  color: white;
 }
 
 .mama{
@@ -2175,6 +2187,7 @@ footer{
 .form-content{
     display: flex;
     flex-direction: column;
+
 }
 .innerbox2{
     width: 24%;
@@ -2192,9 +2205,9 @@ footer{
     justify-content: center;
     justify-content: space-between;
     width: 50%;
-    top: 340vw;
+    top: 330vw;
     position: absolute;
-    left: 40%;
+    left: 45%;
     transform: translateX(-50%);
     flex-direction: column;
     align-items: center;
@@ -2211,12 +2224,15 @@ footer{
 }
 .innerform{
         content: ;
-        ;width:60%; height: 700px; display: flex;flex-direction:column; align-items:center; position: absolute; 
+        ;width:60%; height: 750px; display: flex;flex-direction:column; align-items:center; position: absolute; 
         left: 55vw; top: 100vw; transform: translate(-50%,-50%); border-radius: 20px;
         background-color: white;
 }
 .mona{
     margin-top: -8vw;
+}
+.mona1{
+    margin-top: 5vw;
 }
 .gradient::after{
     content: "";
