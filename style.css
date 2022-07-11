@@ -1079,7 +1079,7 @@ footer{
 }
 .laga{
     position: absolute;
-    left: 5vw;
+    left: 15vw;
     top: 200vw;
 }
 .innerbox10{
@@ -1090,14 +1090,14 @@ footer{
     display: flex;
     flex-direction: column;
     margin-top: 120vw;
-    margin-left: -54vw;
+    margin-left: -43vw;
     font-size: 2vw;
    
 }
 .innerbox15{
     width: 35vw;
     margin-top: -50vw;
-    margin-left: -35vw;
+    margin-left: -22vw;
 }
 .ne{
     border: #f78a22;
@@ -1112,7 +1112,7 @@ footer{
     display: flex;
     flex-direction: column;
     top: 175vw;
-    left: -35vw;
+    left: -30vw;
     font-size: 2vw;
 }
 .innerbox13{
@@ -1121,8 +1121,8 @@ footer{
     border-radius: 13px;
     display: flex;
     flex-direction: column;
-    top: 175vw;
-    margin-right: 52vw;
+    margin-top: 0;
+    margin-right: 42vw;
     font-size: 2vw;
 }
 .click{
@@ -1170,7 +1170,10 @@ footer{
 
 }
 .black{
-    background-color: rgb(202, 36, 138); margin-top:  170vw; color: white; height: 30px; width: 120px; border-radius: 5px; border: none; position: absolute;
+    background-color: black; top:  125vw; color: white; height: 30px; width: 120px; border-radius: 5px; border: none; position: absolute;
+}
+.black:hover{
+   background-color:  rgb(202, 36, 138);
 }
 
 .mama{
@@ -1179,8 +1182,16 @@ footer{
 
 }
 .jo{
-    border: 1px solid #444;
+        border: 1px solid #444;
+        align-items: center;
+        background-color: white;
+        box-shadow: 
+          12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+          -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+        display: flex;
+
 }
+
 .bobo{
     display: block;
 }
@@ -1254,8 +1265,6 @@ footer{
     animation-duration: 20s;
     animation-name: mesImages;
     animation-iteration-count: infinite;
-    margin-right: -20vw;
-    width: 100%;
     
 }
 @keyframes mesImages{
@@ -1279,7 +1288,7 @@ footer{
     width: 300px;
     overflow: hidden;
     border-radius: 10px;
-    top: 180vw;
+    top: 175vw;
     position: absolute;
     left: 10vw;
 }
@@ -1288,7 +1297,7 @@ footer{
     overflow: hidden;
     border-radius: 10px;
     position: absolute;
-    left: 20vw;
+    left: 22vw;
     margin-top: -80vw;
 }
 .fluide{
@@ -1310,9 +1319,6 @@ flex-direction: column;
     border-radius: 5px;
     margin-left: -20vw;
     ;
-}
-.mo{
-    margin-top: 5vw;
 }
 
 .self{
@@ -1353,14 +1359,14 @@ flex-direction: column;
 
 
 
+
 .babe{
     display: flex;
     justify-content: space-around;
     margin-top: 10vw;
-    margin-right: -20vw;
+    margin-left: 32px;
     height: 120vw;
     flex-direction: column;
-    width: 100%;
    
 
 }
@@ -1565,15 +1571,16 @@ nav{
    
 }
 .mysection{
-    background-color: red;
+   
     height: 25vh;
     background-color:#ECEDF3;
     display: flex;
-    margin-top: -20vw;
+    margin-top:-20vw;
     border-radius: 15px;
     flex-direction: column;
     width: 50%;
-    margin-left: 15vw;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 .ng{
@@ -1620,7 +1627,7 @@ nav{
     font-size: 3.5vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: absolute;
-    top: 30vw;
+    top: 40vw;
     width: 40vw;
 
 
@@ -1664,16 +1671,20 @@ p{
     margin-bottom: 3%;
     width: 30vw;
     height: 7vw;
-    background-color: rgb(248, 48, 108);
+    border: 2px solid black;
     color: white;
     border-radius: 0.5vw;
     border: none;
     font-size: 3vw;
+    background-color: blue;
    
 }
+.contact:hover{
+    background-color: rgb(248, 48, 108);
+}
 .play{
-    height: 6vw;
-    width: 7vw;
+    height: 5vw;
+    width: 5vw;
     border-radius: 50%;
     background-color: transparent;
     border: 1px solid white;
@@ -1776,7 +1787,7 @@ p{
 .textstrategie1{
     width: 47vw;
     margin-top: 10vw;
-    left: -8vw;
+    left: 0vw;
     
     position: absolute;
 }
@@ -1824,7 +1835,7 @@ p{
 }
 .title3{
     font-size: 6vw;
-    margin-top: 42vw;
+    margin-top: 48vw;
     position: absolute;
 }
 .gabin{
@@ -2090,7 +2101,7 @@ h2{
     margin-top: 10vw;
 }
 footer{
-    
+    width: 100%;
     height: 170vh;
     background-color: #3e4169;
     position: relative;margin-top: 10%;
@@ -2105,7 +2116,6 @@ footer{
     height: fit-content;
     background-color: transparent;
     position: relative;
-    left: 10vw;
 }
 .swm{
     height: 35%;
@@ -2123,7 +2133,7 @@ footer{
 }
 .rectangle{
     position: absolute;
-    left:13vw;
+    left: 15vw;
     margin-top: -90vw;
     
 }
@@ -2181,7 +2191,7 @@ footer{
     justify-content: center;
     justify-content: space-between;
     width: 50%;
-    top: 335vw;
+    top: 320vw;
     position: absolute;
     left: 40%;
     transform: translateX(-50%);
@@ -2201,7 +2211,7 @@ footer{
 .innerform{
         content: ;
         ;width:60%; height: 700px; display: flex;flex-direction:column; align-items:center; position: absolute; 
-        left: 35%; top: 100vw; transform: translate(-50%,-50%); border-radius: 20px;
+        left: 55vw; top: 100vw; transform: translate(-50%,-50%); border-radius: 20px;
         background-color: white;
 }
 .mona{
