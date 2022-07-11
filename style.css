@@ -1254,6 +1254,8 @@ footer{
     animation-duration: 20s;
     animation-name: mesImages;
     animation-iteration-count: infinite;
+    margin-right: -20vw;
+    width: 100%;
     
 }
 @keyframes mesImages{
@@ -1277,7 +1279,7 @@ footer{
     width: 300px;
     overflow: hidden;
     border-radius: 10px;
-    top: 160vw;
+    top: 180vw;
     position: absolute;
     left: 10vw;
 }
@@ -1286,7 +1288,7 @@ footer{
     overflow: hidden;
     border-radius: 10px;
     position: absolute;
-    left: 5vw;
+    left: 20vw;
     margin-top: -80vw;
 }
 .fluide{
@@ -1308,6 +1310,9 @@ flex-direction: column;
     border-radius: 5px;
     margin-left: -20vw;
     ;
+}
+.mo{
+    margin-top: 5vw;
 }
 
 .self{
@@ -1337,7 +1342,7 @@ flex-direction: column;
 .coeur{
     position: absolute;
     display: flex;
-    top: 240vw;
+    top: 260vw;
     left: 3vw;
     width: 80%;
     height: 40vw;
@@ -1352,9 +1357,10 @@ flex-direction: column;
     display: flex;
     justify-content: space-around;
     margin-top: 10vw;
-    margin-left: 32px;
+    margin-right: -20vw;
     height: 120vw;
     flex-direction: column;
+    width: 100%;
    
 
 }
@@ -1559,7 +1565,7 @@ nav{
    
 }
 .mysection{
-   
+    background-color: red;
     height: 25vh;
     background-color:#ECEDF3;
     display: flex;
@@ -1567,7 +1573,7 @@ nav{
     border-radius: 15px;
     flex-direction: column;
     width: 50%;
-    margin-left: 22px;
+    margin-left: 15vw;
     
 }
 .ng{
@@ -1770,7 +1776,7 @@ p{
 .textstrategie1{
     width: 47vw;
     margin-top: 10vw;
-    left: -20vw;
+    left: -8vw;
     
     position: absolute;
 }
@@ -2084,7 +2090,7 @@ h2{
     margin-top: 10vw;
 }
 footer{
-    width: 100%;
+    
     height: 170vh;
     background-color: #3e4169;
     position: relative;margin-top: 10%;
@@ -2099,6 +2105,7 @@ footer{
     height: fit-content;
     background-color: transparent;
     position: relative;
+    left: 10vw;
 }
 .swm{
     height: 35%;
@@ -2116,7 +2123,7 @@ footer{
 }
 .rectangle{
     position: absolute;
-    right: 50vw;
+    left:13vw;
     margin-top: -90vw;
     
 }
