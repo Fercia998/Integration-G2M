@@ -1089,7 +1089,7 @@ footer{
     border-radius: 13px;
     display: flex;
     flex-direction: column;
-    margin-top: 120vw;
+    margin-top: 130vw;
     margin-left: -43vw;
     font-size: 2vw;
    
@@ -1312,6 +1312,7 @@ flex-direction: column;
 }
 .mara{
     margin-top: -20vw;
+    width: 50vw;
 }
 .fluide1a{
     height: 30px;
@@ -2191,7 +2192,7 @@ footer{
     justify-content: center;
     justify-content: space-between;
     width: 50%;
-    top: 320vw;
+    top: 340vw;
     position: absolute;
     left: 40%;
     transform: translateX(-50%);
