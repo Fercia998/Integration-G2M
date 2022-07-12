@@ -1253,11 +1253,12 @@ background-color: transparent;
   }
   
 .ranma{
-    display: flex; width:200px; height: 100px; justify-content: space-between;
+    display: flex; width:210px; height: 100px; justify-content: space-between; border-radius: 5px;
     margin-top: -3vw;
 }
 .nours{
     font-size: 10px;
+    width: 50vw;
    
 }
 .jm{
@@ -1587,8 +1588,8 @@ nav{
     margin-top:-20vw;
     border-radius: 15px;
     flex-direction: column;
-    width: 50%;
-    margin-left: auto;
+    width: 70%;
+    margin-left: 25vw;
     margin-right: auto;
     
 }
@@ -1637,6 +1638,14 @@ nav{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     position: absolute;
     top: 40vw;
+    width: 40vw;
+
+
+}
+.service12{
+    color: orange;
+    font-size: 3.5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 40vw;
 
 
@@ -2220,7 +2229,7 @@ footer{
 }
 .innerform{
         content: ;
-        ;width:60%; height: 750px; display: flex;flex-direction:column; align-items:center; position: absolute; 
+        ;width:77%; height: 750px; display: flex;flex-direction:column; align-items:center; position: absolute; 
         left: 55vw; top: 100vw; transform: translate(-50%,-50%); border-radius: 20px;
         background-color: white;
 }
