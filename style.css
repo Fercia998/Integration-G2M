@@ -1414,13 +1414,14 @@ flex-direction: column;
 }
 
 .osf2{
-    height: 25px;
-    width: 150px;
+    height: 40px;
+    width: 250px;
 }
 
 .osf15{
-    height: 25px;
-    width: 150px;
+    height: 40px;
+    width: 250px;
+    text-align: center;
 }
 .mer{
     margin-top: 10px;
